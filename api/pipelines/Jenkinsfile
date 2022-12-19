@@ -9,7 +9,7 @@ pipeline {
         stage('stage with node-js-15') {
           steps {
               sh '''#!/bin/bash
-              cd ./api/pipelines/Jenkinsfile
+              cd ./api/pipelines/
                  cat ./test.sh
               '''
           }
